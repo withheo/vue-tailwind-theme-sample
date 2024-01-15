@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@import './button/button.scss';
+
+
+main {
+  @apply text-text-base;
+
+  h3 {
+    @apply text-text-base;
+  }
+}

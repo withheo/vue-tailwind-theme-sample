@@ -1,0 +1,20 @@
+
+
+
+/**
+  medium-button 정의 
+*/
+
+
+.btn-medium {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  user-select: none;
+  cursor: pointer;
+  
+  @apply bg-base text-text-base;
+}
